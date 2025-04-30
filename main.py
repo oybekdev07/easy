@@ -41,3 +41,4 @@ app.add_middleware(
 @app.get("/")
 def read_root():
     return {"message": "EasyTalk Backend is running!"}
+
